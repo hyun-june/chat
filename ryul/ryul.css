@@ -19,7 +19,7 @@
   -ms-overflow-style: none;
   -ms-flex-align: start;
   -webkit-overflow-scrolling: auto;
-  align-items: flex-end;
+  align-items: center;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
@@ -58,7 +58,7 @@
   border-radius: 8px;
   max-width: 520px;
   position: relative;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .live_chatting_message_container__vrI-y.live_chatting_message_is_overlay__cALCf
@@ -81,7 +81,6 @@
 [class^="live_chatting_message_text"] {
   padding-right: 0.4em;
   color: #333333 !important;
-  letter-spacing: 1.2px;
 }
 
 /* 이모티콘 */
