@@ -1,0 +1,115 @@
+/* 중앙 정렬 */
+@font-face {
+  font-family: "Ownglyph_ParkDaHyun";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2411-3@1.0/Ownglyph_ParkDaHyun.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Freesentation-7Bold";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-7Bold.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* 채팅창 */
+.live_overlay_chatting__gG7gu {
+  -ms-overflow-style: none;
+  -ms-flex-align: start;
+  -webkit-overflow-scrolling: auto;
+  align-items: center;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0 auto;
+  border: 10px solid transparent;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  overflow-y: auto;
+  position: relative;
+  scrollbar-width: none;
+  font-family: "Freesentation-7Bold";
+  background: linear-gradient(45deg, #888888, #333333);
+  border: none;
+}
+
+[class^="live_overlay_item"] {
+  margin-bottom: 12px;
+}
+
+.live_overlay_item__Sg18i:first-child {
+  margin-top: auto;
+}
+
+/* 채팅 닉네임 */
+.name_text__yQG50 {
+  white-space: nowrap;
+  margin-left: 4px;
+  flex-shrink: 0;
+}
+
+/* 말풍선 */
+.live_overlay_message__lLCT1 {
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+
+  max-width: 520px;
+  position: relative;
+}
+
+.live_chatting_message_container__vrI-y.live_chatting_message_is_overlay__cALCf
+  .live_chatting_message_wrapper__xpYre {
+  line-height: 32px;
+  padding: 3px 0px 0px 4px;
+}
+
+.live_chatting_message_wrapper__xpYre {
+  overflow-wrap: anywhere;
+  word-break: break-all;
+  background-color: none;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 채팅 */
+.live_chatting_message_text__DyleH {
+  padding-right: 0.4em;
+  color: white !important;
+  background-color: none;
+  border: 1px solid #d3d3d3;
+  border-radius: 8px;
+  padding: 0px 6px;
+  position: relative;
+}
+
+.live_chatting_message_text__DyleH::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  background-image: url("https://cdn-icons-png.flaticon.com/512/1521/1521260.png");
+  background-size: cover;
+  background-position: center;
+}
+
+/* 이모티콘 */
+.live_chatting_message_text__DyleH img {
+  height: 24px;
+  margin-right: 1px;
+  width: 24px;
+}
+
+img,
+svg {
+  vertical-align: top;
+}
+
+.badge_container__a64XB {
+  display: none;
+}
