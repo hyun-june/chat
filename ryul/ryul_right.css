@@ -61,6 +61,18 @@
   position: relative;
   /* background-color: rgba(255, 255, 255, 0.5); */
   background-color: white;
+  animation: up 1.5s ease-out forwards;
+}
+
+@keyframes up {
+  0% {
+    opacity: 0;
+    transform: translateY(50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .live_chatting_message_container__vrI-y.live_chatting_message_is_overlay__cALCf
