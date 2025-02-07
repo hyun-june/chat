@@ -33,7 +33,8 @@
   overflow-y: auto;
   position: relative;
   scrollbar-width: none;
-  font-family: "Freesentation-7Bold";
+  font-family: "Ownglyph_ParkDaHyun";
+  font-weight: bold;
 }
 
 [class^="live_overlay_item"] {
