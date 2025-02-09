@@ -34,7 +34,7 @@
   position: relative;
   scrollbar-width: none;
   font-family: "Freesentation-7Bold";
-  background: linear-gradient(45deg, #888888, #333333);
+
   border: none;
 }
 
@@ -78,7 +78,7 @@
 /* 채팅 */
 .live_chatting_message_text__DyleH {
   padding-right: 0.4em;
-  color: white !important;
+  color: #333333;
   background-color: none;
   border: 1px solid #d3d3d3;
   border-radius: 8px;
