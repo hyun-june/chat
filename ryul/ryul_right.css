@@ -62,7 +62,8 @@
   position: relative;
   /* background-color: rgba(255, 255, 255, 0.5); */
   background-color: white;
-  animation: up 1s ease-out forwards;
+  animation: up 1s ease-out forwards, fadeout 1s forwards;
+  animation-delay: 0s, 80s;
 }
 
 @keyframes up {
@@ -73,6 +74,17 @@
   50% {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@keyframes fadeout {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    visibility: hidden;
   }
 }
 
