@@ -49,6 +49,7 @@
 .name_text__yQG50 {
   white-space: nowrap;
   margin-left: 2px;
+  display: none;
 }
 
 /* 말풍선 */
@@ -99,7 +100,7 @@
   word-break: break-all;
 
   /* display: flex;
-    flex-direction: row-reverse; */
+        flex-direction: row-reverse; */
 }
 
 /* 채팅 */
@@ -125,6 +126,6 @@ svg {
 }
 
 /* .live_chatting_username_container__m1-i5 {
-    display: flex;
-    flex-direction: row-reverse;
-  } */
+        display: flex;
+        flex-direction: row-reverse;
+      } */

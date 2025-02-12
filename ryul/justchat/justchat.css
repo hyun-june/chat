@@ -34,11 +34,10 @@
   position: relative;
   scrollbar-width: none;
   font-family: "Freesentation-7Bold";
-
   border: none;
 }
 
-[class^="live_overlay_item"] {
+.live_overlay_item__Sg18i {
   margin-bottom: 12px;
 }
 
