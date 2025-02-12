@@ -89,6 +89,10 @@
   }
 }
 
+[class^="live_chatting_username"] {
+  margin: 0 !important;
+}
+
 .live_chatting_message_container__vrI-y.live_chatting_message_is_overlay__cALCf
   .live_chatting_message_wrapper__xpYre {
   line-height: 32px;
@@ -116,16 +120,7 @@
   width: 24px;
 }
 
-/* 뱃지 */
-.badge_container__a64XB {
-}
-
 img,
 svg {
   vertical-align: top;
 }
-
-/* .live_chatting_username_container__m1-i5 {
-      display: flex;
-      flex-direction: row-reverse;
-    } */

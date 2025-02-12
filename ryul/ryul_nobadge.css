@@ -87,6 +87,10 @@
   }
 }
 
+[class^="live_chatting_username"] {
+  margin: 0 !important;
+}
+
 .live_chatting_message_container__vrI-y.live_chatting_message_is_overlay__cALCf
   .live_chatting_message_wrapper__xpYre {
   line-height: 32px;
@@ -100,8 +104,8 @@
 
 /* 채팅 */
 .live_chatting_message_text__DyleH {
-  padding-right: 0.6em;
   color: #333333 !important;
+  margin: 0px 3px;
 }
 
 /* 이모티콘 */
