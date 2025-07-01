@@ -1,0 +1,118 @@
+@font-face {
+  font-family: "Ownglyph_ParkDaHyun";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2411-3@1.0/Ownglyph_ParkDaHyun.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: "Ownglyph_ParkDaHyun";
+}
+
+/* 채팅창 */
+.live_overlay_chatting__gG7gu {
+  -ms-overflow-style: none;
+  -ms-flex-align: start;
+  -webkit-overflow-scrolling: auto;
+  align-items: flex-end;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0 auto;
+  border-radius: 32px;
+  border: 3px solid #ffcff9;
+  background: linear-gradient(to top, #ffcff9, #fff);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  overflow-y: auto;
+  position: relative;
+  scrollbar-width: none;
+}
+
+.live_overlay_item__Sg18i {
+  margin-bottom: 12px;
+}
+
+.live_overlay_item__Sg18i:first-child {
+  margin-top: auto;
+}
+
+/* 채팅 닉네임 */
+.name_text__yQG50 {
+  color: black;
+}
+
+/* 말풍선 */
+.live_overlay_message__lLCT1 {
+  border: 1px solid yellow;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  border-radius: 14px;
+  max-width: 520px;
+  position: relative;
+  background-color: #f9f9f9;
+}
+
+.live_chatting_message_container__vrI-y.live_chatting_message_is_overlay__cALCf
+  .live_chatting_message_wrapper__xpYre {
+  font-size: 24px;
+  line-height: 32px;
+  padding: 3px 13px;
+}
+.live_chatting_message_wrapper__xpYre {
+  overflow-wrap: anywhere;
+  word-break: break-all;
+}
+
+.live_chatting_message_wrapper__xpYre::before {
+  content: "";
+  display: block;
+  width: 28px;
+  height: 28px;
+  background-image: url("https://cdn-icons-png.flaticon.com/512/1521/1521260.png"); /* 새 이미지 경로 */
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: -18px;
+  left: 0px;
+}
+
+/* 말풍선 */
+
+/* 채팅 */
+.live_chatting_message_text__DyleH {
+  color: #333333 !important;
+}
+
+/* 이모티콘 */
+.live_chatting_message_text__DyleH img {
+  height: 24px;
+  width: 24px;
+}
+
+img,
+svg {
+  vertical-align: top;
+}
+
+.badge_container__a64XB img {
+  display: none;
+}
+
+/* .badge_container__a64XB::before {
+  content: "";
+  display: block;
+  width: 28px;
+  height: 28px;
+  background-image: url("https://cdn-icons-png.flaticon.com/512/1521/1521260.png"); 
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: -18px;
+  left: 0px;
+} */
