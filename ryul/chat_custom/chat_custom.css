@@ -1,3 +1,4 @@
+/* 말풍선 모양 */
 @font-face {
   font-family: "Ownglyph_ParkDaHyun";
   src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2411-3@1.0/Ownglyph_ParkDaHyun.woff2")
@@ -57,18 +58,25 @@ body {
   line-height: 32px;
   padding: 3px 13px;
 }
+
 .live_chatting_message_wrapper__xpYre {
   overflow-wrap: anywhere;
   word-break: break-all;
-  border-radius: 80px 80px 60px 60px;
+  /* border-radius: 80px 80px 60px 60px; */
+  border-radius: 8px 8px 6px 6px;
   position: relative;
   border: 2px solid purple;
   width: max-content;
   height: auto;
   min-width: 50px;
+  text-align: center;
 }
 
-.live_chatting_message_wrapper__xpYre::before {
+.live_chatting_username_container__m1-i5 {
+  margin-right: 0 !important;
+}
+
+/* .live_chatting_message_wrapper__xpYre::before {
   content: "";
   width: 1em;
   height: 0.2em;
@@ -84,23 +92,23 @@ body {
   left: 0.2em;
   bottom: -0.27em;
   transform: rotate(9deg);
-}
+} */
 
 .live_chatting_message_wrapper__xpYre::after {
   content: "";
-  width: 1em;
-  height: 0.2em;
+  width: 0.2em;
+  height: 0.1em;
   background-color: white;
   border: 2px solid transparent;
   border-left-color: purple;
   border-right-color: purple;
   border-bottom-color: purple;
   border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 30px 20px;
+  border-bottom-right-radius: 3px 2px;
   position: absolute;
   right: 0.2em;
-  bottom: -0.27em;
-  transform: rotate(-9deg);
+  bottom: -0.25em;
+  transform: rotate(0deg);
 }
 
 /* 말풍선 */
@@ -108,12 +116,13 @@ body {
 /* 채팅 */
 .live_chatting_message_text__DyleH {
   color: #333333 !important;
+  text-align: center;
 }
 
 /* 이모티콘 */
 .live_chatting_message_text__DyleH img {
-  height: 24px;
-  width: 24px;
+  max-height: 24px;
+  max-width: 24px;
 }
 
 img,
