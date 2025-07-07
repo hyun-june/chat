@@ -8,6 +8,14 @@
 }
 
 @font-face {
+  font-family: "SUIT-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: "GmarketSans";
   src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
     format("woff");
@@ -73,7 +81,7 @@ body {
   .live_chatting_message_wrapper__xpYre {
   font-size: 24px;
   line-height: 32px;
-  padding: 3px 13px;
+  padding: 3px 5px;
 }
 
 .live_chatting_message_wrapper__xpYre {
@@ -149,7 +157,7 @@ svg {
 
 .badge_container__a64XB img {
   /* display: none; */
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
 /* .badge_container__a64XB::before {
