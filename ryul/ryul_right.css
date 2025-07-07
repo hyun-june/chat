@@ -23,10 +23,9 @@
   align-items: flex-end;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  height: 100vh;
-  margin: 0 auto;
+  -ms-flex-direction: column-reverse;
+  flex-direction: column-reverse;
+  margin-top: auto;
   border: 10px solid transparent;
   background-origin: border-box;
   background-clip: content-box, border-box;
@@ -35,14 +34,6 @@
   scrollbar-width: none;
   font-family: "Ownglyph_ParkDaHyun";
   font-weight: bold;
-}
-
-.live_overlay_item__Sg18i {
-  margin-bottom: 12px;
-}
-
-.live_overlay_item__Sg18i:first-child {
-  margin-top: auto;
 }
 
 /* 채팅 닉네임 */
@@ -60,7 +51,6 @@
   border-radius: 8px;
   max-width: 520px;
   position: relative;
-  /* background-color: rgba(255, 255, 255, 0.5); */
   background-color: white;
   animation: up 1s ease-out forwards, fadeout 1s forwards;
   animation-delay: 0s, 80s;
@@ -97,9 +87,6 @@
 .live_chatting_message_wrapper__xpYre {
   overflow-wrap: anywhere;
   word-break: break-all;
-
-  /* display: flex;
-    flex-direction: row-reverse; */
 }
 
 /* 채팅 */
@@ -116,15 +103,8 @@
 }
 
 /* 뱃지 */
-.badge_container__a64XB {
-}
 
 img,
 svg {
   vertical-align: top;
 }
-
-/* .live_chatting_username_container__m1-i5 {
-    display: flex;
-    flex-direction: row-reverse;
-  } */

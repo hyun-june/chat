@@ -7,6 +7,22 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "GmarketSans";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GmarketSansB";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   margin: 0;
   font-family: "Ownglyph_ParkDaHyun";
@@ -42,7 +58,8 @@ body {
 /* 채팅 닉네임 */
 .name_text__yQG50 {
   color: black;
-  display: none;
+  /* display: none; */
+  margin-right: 5px;
 }
 
 /* 말풍선 */
@@ -131,7 +148,8 @@ svg {
 }
 
 .badge_container__a64XB img {
-  display: none;
+  /* display: none; */
+  margin-right: 10px;
 }
 
 /* .badge_container__a64XB::before {

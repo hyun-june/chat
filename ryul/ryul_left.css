@@ -23,8 +23,8 @@
   align-items: flex-start;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  -ms-flex-direction: column-reverse;
+  flex-direction: column-reverse;
   height: 100vh;
   margin: 0 auto;
   border: 10px solid transparent;
@@ -35,14 +35,6 @@
   scrollbar-width: none;
   font-family: "Ownglyph_ParkDaHyun";
   font-weight: bold;
-}
-
-.live_overlay_item__Sg18i {
-  margin-bottom: 12px;
-}
-
-.live_overlay_item__Sg18i:first-child {
-  margin-top: auto;
 }
 
 /* 채팅 닉네임 */
