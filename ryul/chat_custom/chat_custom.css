@@ -44,10 +44,10 @@ body {
   align-items: flex-end;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  -ms-flex-direction: column-reverse;
+  flex-direction: column-reverse;
   height: 100vh;
-  margin: 0 auto;
+  margin-top: 0 auto;
   background-origin: border-box;
   background-clip: content-box, border-box;
   overflow-y: auto;
@@ -57,10 +57,6 @@ body {
 
 .live_overlay_item__Sg18i {
   margin-bottom: 1em;
-}
-
-.live_overlay_item__Sg18i:first-child {
-  margin-top: auto;
 }
 
 /* 채팅 닉네임 */
@@ -74,7 +70,10 @@ body {
 .live_overlay_message__lLCT1 {
   max-width: 520px;
   background-color: #f9f9f9;
-  margin-right: 3em;
+  margin-right: 1em;
+  animation: up 1s ease-out forwards, fadeout 1s forwards;
+  animation-delay: 0s, 80s;
+  position: relative;
 }
 
 .live_chatting_message_container__vrI-y.live_chatting_message_is_overlay__cALCf
@@ -99,6 +98,28 @@ body {
 
 .live_chatting_username_container__m1-i5 {
   margin-right: 0 !important;
+}
+
+@keyframes up {
+  0% {
+    opacity: 0;
+    transform: translateY(30%);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeout {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
 }
 
 /* .live_chatting_message_wrapper__xpYre::before {
