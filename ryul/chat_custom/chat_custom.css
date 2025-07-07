@@ -69,11 +69,11 @@ body {
 /* 말풍선 */
 .live_overlay_message__lLCT1 {
   max-width: 520px;
+  /* background-color: rgba(249, 249, 249, 0.8); */
   background-color: #f9f9f9;
   margin-right: 1em;
   animation: up 1s ease-out forwards, fadeout 1s forwards;
-  animation-delay: 0s, 80s;
-  position: relative;
+  animation-delay: 0s, 60s;
 }
 
 .live_chatting_message_container__vrI-y.live_chatting_message_is_overlay__cALCf
